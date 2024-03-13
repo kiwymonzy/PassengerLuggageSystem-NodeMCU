@@ -1,4 +1,4 @@
-PASSENGER LUGGAGE MONITORING SYSTEM
+PASSENGER LUGGAGE SYSTEM
 
 Introduction
 The Passenger Luggage Monitoring System is a project that combines both hardware and software components to monitor and manage luggage in a passenger transportation system. This system aims to enhance security and ensure efficient handling of passenger luggage.
@@ -12,11 +12,11 @@ To run the hardware part of the system, you will need the following:
 ## Software Requirements
 The software part of the system can be accessed using the following link:
 
-- [https://passenger-luggage.onrender.com/](https://passenger-luggage.onrender.com/)
+- [http://localhost:3000/](http://localhost:3000/)
 
 Default login credentials for the software are as follows:
-- Username: admin1
-- Password: admin1
+- Username: admin
+- Password: admin
 
 ## Installation and Setup
 
@@ -27,10 +27,13 @@ Default login credentials for the software are as follows:
 4. Simulate the project in Proteus to run the hardware part.
 
 ### Software Setup
+npm install
+npm start
+
 1. Ensure you have a working internet connection.
 2. Open a web browser.
-3. Go to [https://passenger-luggage.onrender.com/](https://passenger-luggage.onrender.com/).
-4. Enter the default username "admin1" and the default password "admin1" to log in to the system.
+3. Go to [http://localhost:3000/](http://localhost:3000/).
+4. Enter the default username "admin" and the default password "admin" to log in to the system.
 5. Once logged in, you can start using the software part of the Passenger Luggage Monitoring System.
 
 ## Features
