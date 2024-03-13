@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1(style='text-align:center')= title
+
+  div(class='container')
+    table(class='table table-striped')
+      thead
+        tr
+          th Full Name
+          th Card ID
+          th Phone Number
+          th Destination
+      tody
+        each item in results
+          tr
+            td= item.name
+            td= item.card_id
+            td= item.phone_number
+            td= item.destination
+    button.btn.btn-danger(type='button') #[a(style='color:white' href='/delete-users') Delete All Customers]
+   
+      
+
+    

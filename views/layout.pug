@@ -1,0 +1,24 @@
+doctype html
+html(lang='en')
+  head
+    title= title
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js")
+    
+  body
+    nav(class='navbar navbar-light bg-success')
+      div(class='container-fluid')
+        div(class='navbar-header')
+          a(class='navbar-brand' href='#') Passengers Luggage Monitoring
+        ul(class='nav navbar-nav')
+          li #[a(href='/') Home]
+          li #[a(href='/users') Customers]
+          li #[a(href='/records') Records]
+          li #[a(href='/create-user') Add Customer]
+          li #[a(href='/register') Add User]
+    block content
+    
